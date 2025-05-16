@@ -13,12 +13,12 @@ shared_scripts {
 }
 
 client_scripts {
-    'config/cl_*.lua'
-    'client/cl_*.lua',
+    'config/cl_*.lua',
+    'client/cl_*.lua'
 }
 
 server_scripts {
     '@oxmysql/lib/MySQL.lua',
     'config/sv_*.lua',
-    'server/sv_*.lua',
+    'server/sv_*.lua'
 }
