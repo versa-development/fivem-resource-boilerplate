@@ -6,4 +6,4 @@
 
 ServerConfig = {}
 
-ServerConfig.MaxPlayers = 32 -- The maximum number of players allowed on the server
+ServerConfig.MaxPlayers = 32 -- The maximum number of players allowed on the server (this is an example value (does not work) )
