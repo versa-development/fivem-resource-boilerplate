@@ -2,23 +2,26 @@ fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
 
+name 'versa-resource-boilerplate'
 author 'Versa Development'
 version '1.0'
-description 'Versa Development - Resource Boilerplate'
+repository 'https://github.com/versa-development/fivem-resource-boilerplate'
+description 'A simple FiveM resource boilerplate (Lua)'
 
-shared_scripts {
-    '@ox_lib/init.lua',
-    'config/sh_*.lua',
-    'shared/sh_*.lua'
+dependencies {
+    '/onesync',
+    'ox_lib'
 }
 
-client_scripts {
-    'config/cl_*.lua',
-    'client/cl_*.lua'
+shared_script '@ox_lib/init.lua'
+
+files {
+    'data/config.lua',
+    'modules/**/client.lua',
+    'modules/**/server.lua',
+    'modules/**/shared.lua',
+    'utils/*.lua'
 }
 
-server_scripts {
-    '@oxmysql/lib/MySQL.lua',
-    'config/sv_*.lua',
-    'server/sv_*.lua'
-}
+client_script 'init.lua'
+server_script 'init.lua'
