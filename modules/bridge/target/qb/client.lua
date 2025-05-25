@@ -1,8 +1,8 @@
 local log = require 'utils.logger'
-local M = {}
+local target = {}
 
-function M.init()
+function target.init()
     log.info('Loading qb_target')
 end
 
-return M
+return target

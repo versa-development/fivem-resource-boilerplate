@@ -1,9 +1,9 @@
 local log = require 'utils.logger'
 
-local module = {}
+local exampleModule = {}
 
-function module.init()
+function exampleModule.init()
     log.info('Initializing Module (Client)...')
 end
 
-return module
+return exampleModule
