@@ -1,3 +1,3 @@
 return {
-    Target = 'ox', -- Target System (ox, qb)
+  Target = 'ox', -- Target System (ox, qb)
 }

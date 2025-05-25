@@ -9,18 +9,18 @@ repository 'https://github.com/versa-development/fivem-resource-boilerplate'
 description 'A simple FiveM resource boilerplate (Lua)'
 
 dependencies {
-    '/onesync',
-    'ox_lib'
+  '/onesync',
+  'ox_lib'
 }
 
 shared_script '@ox_lib/init.lua'
 
 files {
-    'data/config.lua',
-    'modules/**/client.lua',
-    'modules/**/server.lua',
-    'modules/**/shared.lua',
-    'utils/*.lua'
+  'data/config.lua',
+  'modules/**/client.lua',
+  'modules/**/server.lua',
+  'modules/**/shared.lua',
+  'utils/*.lua'
 }
 
 client_script 'init.lua'
